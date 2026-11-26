@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip NiceLauncher.zip
+      - run: unzip "NiceLauncher (2).zip"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
